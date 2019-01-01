@@ -1,0 +1,34 @@
+shayan_ray@nlp-project:~/project/keraseg/original$ /usr/bin/python3 pretrained_word_embeddings.py
+Using TensorFlow backend.
+Indexing word vectors.
+Found 400000 word vectors.
+Processing text dataset
+Found 19997 texts.
+Found 174074 unique tokens.
+Shape of data tensor: (19997, 1000)
+Shape of label tensor: (19997, 20)
+Preparing embedding matrix.
+Training model.
+Train on 15998 samples, validate on 3999 samples
+Epoch 1/10
+2018-12-07 18:54:36.694280: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instruc                                     tions that this TensorFlow binary was not compiled to use: AVX2 FMA
+15998/15998 [==============================] - 47s 3ms/step - loss: 2.4182 - acc: 0.2059 - val_loss: 1.885                                     4 - val_acc: 0.3211
+Epoch 2/10
+15998/15998 [==============================] - 45s 3ms/step - loss: 1.5635 - acc: 0.4581 - val_loss: 1.399                                     6 - val_acc: 0.5121
+Epoch 3/10
+15998/15998 [==============================] - 44s 3ms/step - loss: 1.2130 - acc: 0.5803 - val_loss: 1.109                                     3 - val_acc: 0.6314
+Epoch 4/10
+15998/15998 [==============================] - 44s 3ms/step - loss: 1.0045 - acc: 0.6578 - val_loss: 1.020                                     8 - val_acc: 0.6569
+Epoch 5/10
+15998/15998 [==============================] - 44s 3ms/step - loss: 0.8488 - acc: 0.7111 - val_loss: 1.015                                     2 - val_acc: 0.6614
+Epoch 6/10
+15998/15998 [==============================] - 45s 3ms/step - loss: 0.7281 - acc: 0.7537 - val_loss: 0.977                                     6 - val_acc: 0.6839
+Epoch 7/10
+15998/15998 [==============================] - 45s 3ms/step - loss: 0.6190 - acc: 0.7861 - val_loss: 1.030                                     3 - val_acc: 0.6677
+Epoch 8/10
+15998/15998 [==============================] - 45s 3ms/step - loss: 0.5351 - acc: 0.8165 - val_loss: 0.885                                     3 - val_acc: 0.7267
+Epoch 9/10
+15998/15998 [==============================] - 45s 3ms/step - loss: 0.4629 - acc: 0.8445 - val_loss: 0.832                                     7 - val_acc: 0.7394
+Epoch 10/10
+15998/15998 [==============================] - 44s 3ms/step - loss: 0.3900 - acc: 0.8703 - val_loss: 1.251                                     4 - val_acc: 0.6764
+

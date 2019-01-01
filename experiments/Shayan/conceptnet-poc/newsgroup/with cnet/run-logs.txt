@@ -1,0 +1,34 @@
+shayan_ray@nlp-project:~/project/keraseg/cnet$ /usr/bin/python3 pretrained_word_embeddings.py
+Using TensorFlow backend.
+Indexing word vectors.
+Found 417195 word vectors.
+Processing text dataset
+Found 19997 texts.
+Found 174074 unique tokens.
+Shape of data tensor: (19997, 1000)
+Shape of label tensor: (19997, 20)
+Preparing embedding matrix.
+Training model.
+Train on 15998 samples, validate on 3999 samples
+Epoch 1/10
+2018-12-07 19:51:25.259194: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+15998/15998 [==============================] - 104s 6ms/step - loss: 2.4890 - acc: 0.1782 - val_loss: 1.9132 - val_acc: 0.3228
+Epoch 2/10
+15998/15998 [==============================] - 102s 6ms/step - loss: 1.7000 - acc: 0.3942 - val_loss: 1.3991 - val_acc: 0.5171
+Epoch 3/10
+15998/15998 [==============================] - 102s 6ms/step - loss: 1.2312 - acc: 0.5743 - val_loss: 1.0601 - val_acc: 0.6439
+Epoch 4/10
+15998/15998 [==============================] - 103s 6ms/step - loss: 0.9671 - acc: 0.6681 - val_loss: 1.0088 - val_acc: 0.6634
+Epoch 5/10
+15998/15998 [==============================] - 103s 6ms/step - loss: 0.8072 - acc: 0.7233 - val_loss: 0.9765 - val_acc: 0.6714
+Epoch 6/10
+15998/15998 [==============================] - 103s 6ms/step - loss: 0.6787 - acc: 0.7696 - val_loss: 1.1291 - val_acc: 0.6637
+Epoch 7/10
+15998/15998 [==============================] - 103s 6ms/step - loss: 0.5668 - acc: 0.8075 - val_loss: 0.8100 - val_acc: 0.7442
+Epoch 8/10
+15998/15998 [==============================] - 102s 6ms/step - loss: 0.4720 - acc: 0.8378 - val_loss: 0.8148 - val_acc: 0.7512
+Epoch 9/10
+15998/15998 [==============================] - 102s 6ms/step - loss: 0.3917 - acc: 0.8649 - val_loss: 0.8489 - val_acc: 0.7612
+Epoch 10/10
+15998/15998 [==============================] - 103s 6ms/step - loss: 0.3285 - acc: 0.8865 - val_loss: 0.8070 - val_acc: 0.7732
+
